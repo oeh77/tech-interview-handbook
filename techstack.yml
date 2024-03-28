@@ -1,0 +1,766 @@
+repo_name: oeh77/tech-interview-handbook
+report_id: 064c39ed06f87e09a96307f8c437cbf0
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-28T02:49:03+00:00'
+requested_by: jordan-cutler
+provider: github
+branch: main
+detected_tools_count: 55
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/apps/portal/prisma/migrations/20220928103800_init/migration.sql
+  detection_source: apps/portal/prisma/migrations/20220928103800_init/migration.sql
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-09-29 08:23:34.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/apps/portal/package.json
+  detection_source: apps/portal/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-09-29 08:23:34.000000000 Z
+- name: Next.js
+  description: A small framework for server-rendered universal JavaScript apps
+  website_url: https://nextjs.org/
+  version: 12.3.1
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/portal/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-09-29 08:23:34.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/apps/portal/package.json
+  detection_source: apps/portal/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-09-29 08:23:34.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/apps/portal/package.json
+  detection_source: apps/portal/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-09-29 08:23:34.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/portal/package.json
+  last_updated_by: Jeff Sieu
+  last_updated_on: 2022-10-22 14:14:19.000000000 Z
+- name: Storybook
+  description: Build bulletproof UI components faster
+  website_url: https://storybook.js.org/
+  version: 6.5.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/9240/sOct-Txm_400x400.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/storybook/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-10-10 23:27:41.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/apps/storybook/package.json
+  detection_source: apps/storybook/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-10-04 01:04:08.000000000 Z
+- name: Prisma
+  description: Modern Database Access for TypeScript &amp; Node.js
+  website_url: https://www.prisma.io/
+  version: 4.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/8680/Logo_Symbol_White.jpg
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/portal/package.json
+  last_updated_by: Bryann Yeap Kok Keong
+  last_updated_on: 2022-11-09 05:45:22.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/packages/eslint-config-tih/package.json
+  detection_source: packages/eslint-config-tih/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-09-29 08:23:34.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/.github/workflows/lint.yml
+  detection_source: ".github/workflows/lint.yml"
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-10-10 23:43:29.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-10-10 23:27:41.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/apps/storybook/package.json
+  detection_source: apps/storybook/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-09-29 08:23:34.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-09-29 08:23:34.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/packages/ui/package.json
+  detection_source: packages/ui/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-09-29 08:23:34.000000000 Z
+- name: Vercel
+  description: It makes serverless application deployment easy
+  website_url: https://vercel.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Static Web Hosting
+  image_url: https://img.stackshare.io/service/7618/bHjpwZem_400x400.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/apps/portal/vercel.json
+  detection_source: apps/portal/vercel.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-09-30 23:50:35.000000000 Z
+- name: Zod
+  description: TypeScript-first schema validation
+  website_url: https://zod.dev/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48521/default_eea961e4c374e68a1c7eb5bbc9e4a39920890342.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/apps/portal/package.json
+  detection_source: apps/portal/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-09-29 08:23:34.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.25.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/portal/package.json
+  last_updated_by: Keane Chan
+  last_updated_on: 2022-10-09 02:40:22.000000000 Z
+- name: date-fns
+  description: Modern JavaScript date utility library
+  website_url: https://date-fns.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/apps/portal/package.json
+  detection_source: apps/portal/package.json
+  last_updated_by: Peirong
+  last_updated_on: 2022-10-07 15:33:24.000000000 Z
+- name: superJSON
+  website_url: https://github.com/blitz-js/superjson
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/25051/default_e6d588b7b89872630cad4650352e935999e0d113.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/apps/portal/package.json
+  detection_source: apps/portal/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-09-29 08:23:34.000000000 Z
+- name: next-auth
+  description: Authentication for Next.js
+  package_url: https://www.npmjs.com/next-auth
+  version: 4.10.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/portal/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-09-29 08:23:34.000000000 Z
+  vulnerabilities:
+  - name: Missing proper state, nonce and PKCE checks for OAuth authentication
+    cve_id: CVE-2023-27490
+    cve_url: https://github.com/advisories/GHSA-7r7x-4c4q-c4qf
+    detected_date: Nov 25
+    severity: high
+    first_patched: 4.20.1
+  - name: Possible user mocking that bypasses basic authentication
+    cve_id: CVE-2023-48309
+    cve_url: https://github.com/advisories/GHSA-v64w-49xw-qq89
+    detected_date: Nov 25
+    severity: moderate
+    first_patched: 4.24.5
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 2.9.15
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/storybook/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-09-29 08:23:34.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 2.9.17
+  - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
+      (//)
+    cve_id: CVE-2023-34092
+    cve_url: https://github.com/advisories/GHSA-353f-5xf4-qw67
+    detected_date: Nov 23
+    severity: high
+    first_patched: 2.9.16
+- name: xlsx
+  description: SheetJS Spreadsheet data parser and writer
+  package_url: https://www.npmjs.com/xlsx
+  version: 0.18.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16781/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/portal/package.json
+  last_updated_by: Stuart Long
+  last_updated_on: 2022-11-04 06:55:00.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in sheetJS
+    cve_id: CVE-2023-30533
+    cve_url: https://github.com/advisories/GHSA-4r6h-8v6p-xvw6
+    detected_date: Apr 25
+    severity: high
+    first_patched: 0.19.3
+- name: "@next-auth/prisma-adapter"
+  description: Prisma adapter for next-auth
+  package_url: https://www.npmjs.com/@next-auth/prisma-adapter
+  version: 1.0.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/portal/package.json
+  last_updated_by: Bryann Yeap Kok Keong
+  last_updated_on: 2022-11-09 05:45:22.000000000 Z
+- name: "@prisma/client"
+  description: Prisma Client is an auto-generated, type-safe and modern JavaScript/TypeScript
+    ORM for Node.js that's tailored to your data
+  package_url: https://www.npmjs.com/@prisma/client
+  version: 4.4.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/portal/package.json
+  last_updated_by: Bryann Yeap Kok Keong
+  last_updated_on: 2022-11-09 05:45:22.000000000 Z
+- name: "@storybook/addon-actions"
+  description: Action Logger addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-actions
+  version: 6.5.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16126/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/storybook/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-10-10 23:27:41.000000000 Z
+- name: "@storybook/addon-docs"
+  description: Superior documentation for your components
+  package_url: https://www.npmjs.com/@storybook/addon-docs
+  version: 6.5.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17835/default_abcc2eea82e62d338a749f334647866df76198b8.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/storybook/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-10-10 23:27:41.000000000 Z
+- name: "@storybook/addon-links"
+  description: Story Links addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-links
+  version: 6.5.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16204/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/storybook/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-10-10 23:27:41.000000000 Z
+- name: "@storybook/react"
+  description: 'Storybook for React: Develop React Component in isolation with Hot
+    Reloading'
+  package_url: https://www.npmjs.com/@storybook/react
+  version: 6.5.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16042/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/storybook/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-10-10 23:27:41.000000000 Z
+- name: "@tailwindcss/typography"
+  description: A Tailwind CSS plugin for automatically styling plain HTML content
+    with beautiful typographic defaults
+  package_url: https://www.npmjs.com/@tailwindcss/typography
+  version: 0.5.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: packages/tailwind-config/package.json
+  last_updated_by: Keane Chan
+  last_updated_on: 2022-10-21 07:25:14.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.7.23
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/portal/package.json
+  last_updated_by: Bryann Yeap Kok Keong
+  last_updated_on: 2022-11-09 05:45:22.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.0.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/portal/package.json
+  last_updated_by: Jeff Sieu
+  last_updated_on: 2022-10-22 14:14:19.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/portal/package.json
+  last_updated_by: Jeff Sieu
+  last_updated_on: 2022-10-22 14:14:19.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.38.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: packages/eslint-config-tih/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-09-30 23:33:57.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.38.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: packages/eslint-config-tih/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-09-30 23:33:57.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 7.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: packages/ui/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-10-03 12:33:35.000000000 Z
+- name: cross-fetch
+  description: Universal WHATWG Fetch API for Node
+  package_url: https://www.npmjs.com/cross-fetch
+  version: 3.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17537/default_1922051267fa78212ab6eb1238cdf6aab8771493.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/portal/package.json
+  last_updated_by: Stuart Long
+  last_updated_on: 2022-11-04 06:55:00.000000000 Z
+- name: csv
+  description: CSV parser with simple api
+  package_url: https://www.npmjs.com/csv
+  version: 6.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/portal/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-09-29 08:23:34.000000000 Z
+- name: eslint-config-next
+  description: ESLint configuration used by Next.js
+  package_url: https://www.npmjs.com/eslint-config-next
+  version: 12.3.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: packages/eslint-config-tih/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-09-30 23:33:57.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: packages/eslint-config-tih/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-09-30 23:33:57.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.28.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: packages/eslint-config-tih/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-09-30 23:33:57.000000000 Z
+- name: formidable
+  description: A node.js module for parsing form data
+  package_url: https://www.npmjs.com/formidable
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16761/default_c11d90814ded8fcd305b22fdc42b42a3111f1f6d.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/portal/package.json
+  last_updated_by: Keane Chan
+  last_updated_on: 2022-10-09 02:40:22.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.6.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/portal/package.json
+  last_updated_by: Bryann Yeap Kok Keong
+  last_updated_on: 2022-11-09 05:45:22.000000000 Z
+- name: prisma
+  description: Prisma is an open-source database toolkit
+  package_url: https://www.npmjs.com/prisma
+  version: 4.4.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/portal/package.json
+  last_updated_by: Bryann Yeap Kok Keong
+  last_updated_on: 2022-11-09 05:45:22.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/portal/package.json
+  last_updated_by: Jeff Sieu
+  last_updated_on: 2022-10-22 14:14:19.000000000 Z
+- name: react-dropzone
+  description: Simple HTML5 drag-drop zone with React.js
+  package_url: https://www.npmjs.com/react-dropzone
+  version: 14.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16979/default_665377899254fe85c1cf6bf7f15e24c4180a76ac.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/portal/package.json
+  last_updated_by: Jeff Sieu
+  last_updated_on: 2022-10-22 14:14:19.000000000 Z
+- name: react-popper
+  description: React wrapper around Popper.js
+  package_url: https://www.npmjs.com/react-popper
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17809/default_dc034f75f103514d23b4d1a7fe578415d63216ee.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/portal/package.json
+  last_updated_by: Jeff Sieu
+  last_updated_on: 2022-10-22 14:14:19.000000000 Z
+- name: serve
+  description: Static file serving and directory listing
+  package_url: https://www.npmjs.com/serve
+  version: 13.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16484/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/storybook/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-09-29 08:23:34.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.1.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/storybook/package.json
+  last_updated_by: Yangshun Tay
+  last_updated_on: 2022-10-04 01:04:08.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/oeh77/tech-interview-handbook/blob/main/yarn.lock
+  detection_source: apps/portal/package.json
+  last_updated_by: Bryann Yeap Kok Keong
+  last_updated_on: 2022-11-09 05:45:22.000000000 Z
